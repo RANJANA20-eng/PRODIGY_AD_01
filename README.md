@@ -30,10 +30,11 @@ A. Using Python:
 20. When clicked, this button will execute the code lambda: press(1).
 21. The second button, button2, has the function press(2), and so on.
 22. When all seven buttons have been clicked, their functions will be executed in order.
+
 B. Using android development:
 1.Create a new project and name it Calculator.
-2 Open res -> layout -> activity_main.xml (or) main.xml. Here we are going to create the application interface like add layouts, Button , TextView and EditText.
-3 – Create a Linearlayout vertical, add a textview followed by two textfields Number(decimal) for writing numbers in it. Starting code of activity_main.xml
+2. Open res -> layout -> activity_main.xml (or) main.xml. Here we are going to create the application interface like add layouts, Button , TextView and EditText.
+3. Create a Linearlayout vertical, add a textview followed by two textfields Number(decimal) for writing numbers in it. Starting code of activity_main.xml
 4. The interface part of the application is over, let’s focus on adding functionality to the application. This calculator app basically perform five operations i.e addition, subtraction, multiplication, division and reset. So for that we need to define these operation over button click. For that we use setOnClickListener() function.
 
 parseDouble() is used to convert String value to double. By default the value is String and we need to convert it into Double to perform operation over it.
